@@ -4,9 +4,49 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>assignment week 2</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    *{position: relative;}
+    #Chicken, #Beef, #Shushi {margin: 0.33%;}
+@media (min-width: 992px) and (max-width: 1200px) {
+  #Chicken {width: 33.33%;}
+  #Beef {width: 33.33%;}
+  #Shushi {width: 33.33%;}
+}
+@media (min-width: 768px) and (Max-width: 991px) {
+  #Chicken {width: 50%;float: left;}
+  #Beef {width: 50%; float: left;}
+  #Shushi {width: 50%; float: left;}
+}
+@media(max-width:767px){
+  #Chicken {width:100%}
+  #Beef {width:100%}
+  #Shushi{width:100%}
+}
+  </style>
 </head>
 <body>
-  
+  <div id="Menu">
+    <h1>Our Menu</h1>
+  </div>
+  <div id="Chicken">
+    <h3 class="ch">Chicken</h3>
+  <p class="cp">Chicken is the most common type of poultry in the world. Owing to the relative ease and low cost of raising chickens—in comparison to mammals such as cattle or hogs—chicken meat and chicken eggs have become prevalent in numerous cuisines.
+  </p>
+</div>
+<div id="Beef">
+  <h3 class="bh">Beef</h3>
+  <p class="bp">
+    Beef is the culinary name for meat from cattle. In prehistoric times, humans hunted aurochs and later domesticated them. Since that time, numerous breeds of cattle have been bred specifically for the quality or quantity of their meat. 
+  </p>
+</div>
+<div id="Shushi">
+  <h3 class="sh">Shushi</h3>
+  <p class="sp">
+    Sushi is a traditional Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanied by a variety of ingredients, such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari, or sumeshi
+  </p>
+
+</div>
 </body>
 </html>
