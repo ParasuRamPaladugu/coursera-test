@@ -1,7 +1,33 @@
 body{
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
-  font-family: sans-serif;
+  color: #df1d54;
+  background-color: #fcebeb;
+  font-family: 'Dosis', sans-serif;
 
+}
+
+/**header**/
+#header-nav {
+  background-color: #ffffff;
+  border-radius: 0%;
+  border: 0%;
+}
+
+#logo-img {
+  background: url('../img/Ram\ Final\ png.png') no-repeat;
+  width: 150px;
+  height: 83px;
+  margin-top: 0px;
+}
+.navbar-brand h1{
+  /* Ram Restraunts*/
+  font-family: fantasy;
+  color: #df1d54;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px 1px #222;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 0.75;
 }
