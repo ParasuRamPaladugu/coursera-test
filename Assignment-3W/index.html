@@ -8,21 +8,61 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="pull-left">
+          <a href="index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img" alt="logo-img"></div>
           </a>
           <div class="navbar-brand">
-            <a href="index.html"><h1>Ram Restraunts</h1>
+            <a href="index.html"><h1>Food, LLC </h1>
             </a>
-            <img src="img/star copy.png" alt="continental certified" class="pull-left">
-            <span> continental certified </span>
+            <p>
+            
+          </p>
           </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Chicken
+              </a>
+            </li>
+            <li>
+              <a href="About.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> Beef
+              </a>
+            </li>
+            <li>
+              <a href="About.html">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Shushi
+              </a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:999-999-9999"><span>999-999-9999</span>
+              </a>
+              <div>* We Deliver </div>
+            </li>
+
+          </ul>
+
         </div>
 
       </div>
