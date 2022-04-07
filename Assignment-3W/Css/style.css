@@ -121,3 +121,46 @@ background: #df1d54;
   font-size: 1em;
   margin-right: 5px;
 }
+#Main-content {
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+} 
+#Main-content .chicken {
+  margin: 20px 0px 20px 0px;
+  border-radius: 10px;
+  border:3px;
+  border-style: solid;
+  border-color: #df1d54;
+  padding: 10px 30px 10px 30px;
+  background-color: #222;
+  text-align: center;
+}
+#Main-content .beef {margin: 20px 0px 20px 0px;
+  border-radius: 10px;
+  border:3px;
+  border-style: solid;
+  border-color: #df1d54;
+  padding: 10px 30px 10px 30px;
+  background-color: #222;
+  text-align: center;
+}
+#Main-content .shushi {margin: 20px 0px 20px 0px;
+  border-radius: 10px;
+  border:3px;
+  border-style: solid;
+  border-color: #df1d54;
+  padding: 10px 30px 10px 30px;
+  background-color: #222;
+  text-align: center;
+}
+#Main-content .top {
+  margin: 20px 0px 20px 0px;
+}
+#Main-content .top a {
+  color: #df1d54;
+}
+.panel-footer {
+  background-color: #222;
+  border: 0px;
+  color: #df1d54;
+}
